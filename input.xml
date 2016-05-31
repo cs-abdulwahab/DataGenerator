@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<DataNodes name="myDataTable">
+    
+    <DataNode type="String" name="VehicleCondition" >
+        <option>Bad</option>
+        <option>Good</option>
+    </DataNode>
+    
+    <DataNode type="String" name="Age" >
+        <option>15-20</option>
+        <option>21-40</option>
+        <option>41-Above</option>    
+    </DataNode>
+    
+    <DataNode type="String" name="Gender" >
+        <option>Male</option>
+        <option>Female</option>        
+    </DataNode>
+    
+    <DataNode type="String" name="PassengerGender" >
+        <option>Male</option>
+        <option>Female</option>        
+    </DataNode>
+    
+     <DataNode type="String" name="Season" >
+        <option>Good</option>
+        <option>Bad</option>        
+    </DataNode>
+    
+    <DataNode type="String" name="No_of_Passengers" >
+        <option>one</option>
+        <option>two</option>        
+        <option>three</option>    
+    </DataNode>
+
+    <DataNode type="String" name="Plate_Number" >
+        <option>Good</option>
+        <option>Bad</option>           
+    </DataNode>
+
+    <DataNode type="String" name="WeekofMonth" >
+        <option>Start</option>   
+        <option>Mid</option>           
+        <option>Last</option>           
+    </DataNode>
+
+    <DataNode type="String" name="DriverOccupation" >
+        <option>Govt</option>   
+        <option>NonGov</option>                
+    </DataNode>
+    
+    <DataNode type="Number" name="Speed" min="40" max="100" >
+    </DataNode>
+    
+    <DataNode type="String" name="Label" >
+        <option>Yes</option>
+        <option>No</option>
+    </DataNode>
+    
+    
+</DataNodes>
